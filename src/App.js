@@ -16,10 +16,11 @@ import FilterButton from "./components/FilterButton";
         />
       )
     );
+    
     return (
       <div className="todoapp stack-large">
         <h1>TodoMatic</h1>
-          <Form addTask = {addTask}/>
+          <Form addTask = {addTask} />
         <div className="filters btn-group stack-exception">
           <FilterButton />
           <FilterButton />
